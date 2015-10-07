@@ -1,6 +1,91 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+	background: url('images/sand.jpg');
+	font-family: serif;
+	color: white;
+	border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+h2 {
+	color: white;
+	padding-top: .75rem;
+	padding-left: .75rem;
+	padding-bottom: none;
+}
+header.page-header {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 1rem;
+	color: white;
+	border-radius: 5px;
+}
+.page-header h1 {
+	margin-bottom: 0;
+}
+.page-header p {
+	margin-top: 0;
+}
+.page-header small {
+	font-size: medium;
+}
+aside.more-info{
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+}
+aside.more-info img{
+	width: 150px;
+	height: auto;
+	padding-left: 1.5rem;
+}
+aside.more-info p{
+	padding-left: 1rem;
+}
+ul.social-links li {
+	display: inline;
+	padding-bottom: 1rem; 
+}
+/* How do I make these social link have padding on the bottom? */
+section#content {
+ 	background-color: rgba(0, 0, 0, 0.6);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 5px;
+}
+.poem {
+	list-style-type: none;
+}
+.poem li {
+	font-size: large;
+	line-height: 1.8;
+}
+p.citation {
+	padding-left: 2.5rem;
+}
+footer.page-footer {
+ 	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+}
+
+a {
+	color: lightblue;
+}
+p.citation {
+	padding-top: 1rem;
+}
+p.page-credits {
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+}
+ul.social-links {
+	padding-bottom: 1rem;
+	}
+a:link {
+	color: lightblue;
+}
+a:hover {
+	color: white;
 }
